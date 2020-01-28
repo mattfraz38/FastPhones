@@ -1,0 +1,61 @@
+/* -----------------------
+      BASIC SETUP
+----------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #b6b6b6;
+}
+
+/* -----------------------
+          HEADER 
+----------------------- */
+
+#section-header {
+  position: relative;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #000000;
+  min-height: 75px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  position: fixed;
+  align-items: center;
+  background-color: #4e4e4e;
+}
+
+/* #header-img {
+ height: 400px;
+ margin-top: -170px;
+} */
+
+.nav-link, a:active,
+           a:visited {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  color: #3CC4AC;
+}
+
+.logo {
+  width: 60vw;
+}
+
+.logo img {
+  width: 40%;
+  margin: -140px -75px -150px -75px;
+}
