@@ -4,19 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>FastPhone</title>
   </head>
   <body>
-    <header id="header">
-      <img id="header-img" src="images/fastphones-logo.png" alt="FastPhones Logo">
-      <nav id="nav-bar">
-        <ul>
-          <li class="nav-link">Features</li class="nav-link">
-          <li class="nav-link">How It Works</li>
-          <li class="nav-link">Pricing</li>
-        </ul>
-      </nav>
-    </header>
-    
+    <!-- HEADER AND NAVIGATION -->
+    <section class="section-header">
+      <header id="header">
+        <img id="header-img" src="images/fastphones-logo.png" alt="FastPhones Logo">
+        <nav id="nav-bar">
+          <ul>
+            <li class="nav-link"><a href="#section-features">Features</a></li class="nav-link">
+            <li class="nav-link"><a href="#section-how-it-works">How It Works</a></li class="nav-link">
+            <li class="nav-link"><a href="#section-pricing">Pricing</a></li class="nav-link">
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <!-- EMAIL INPUT AND CALL TO ACTION -->
+    <section id="section-callToAction">
+      <h1>Prepaid Smartphones in Hand Fast</h1>
+      <form action="#">
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <input action="https://www.freecodecamp.com/email-submit" method="post" type="submit" value="Learn More">
+      </form>
+    </section>
+    <!-- QUALITY SPEED AND COVERAGE FEATURES -->
+    <section id="section-features">
+      <ion-icon name="done-all"></ion-icon>
+      <h2>High Quality</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magnam quidem non totam quos omnis suscipit error adipisci laborum! Alias repudiandae nihil nam officiis eius, odit labore voluptatibus nemo dolorem?
+        </p>
+      <ion-icon name="bus"></ion-icon>
+      <h2>Fash Shipping</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magnam quidem non totam quos omnis suscipit error adipisci laborum! Alias repudiandae nihil nam officiis eius, odit labore voluptatibus nemo dolorem?
+        </p>
+      <h2>Broad Coverage</h2>
+      <ion-icon name="globe"></ion-icon>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magnam quidem non totam quos omnis suscipit error adipisci laborum! Alias repudiandae nihil nam officiis eius, odit labore voluptatibus nemo dolorem?
+        </p>    
+    </section>
+    <!-- HOW IT WORKS VIDEO -->
+    <section id="section-how-it-works">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2YBtspm8j8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <!-- PRICING OPTIONS -->
+    <section id="section-pricing">
+      
+    </section>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>
