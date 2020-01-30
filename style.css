@@ -171,14 +171,44 @@ html {
 #section-pricing {
   display: grid;
   grid-template-areas: 
+    "title-1 title-2 title-3"
     "option-1 option-2 option-3";
   margin-bottom: 150px;
   padding: 20px;
 }
 
-#section-pricing h3 {
+/* #section-pricing h3 {
+  grid-area: title;
   font-size: 120%;
   color: #3CC4AC;
+  text-align: center;
+} */
+
+.title-1 {
+  grid-area: title-1;
+  font-size: 120%;
+  color: #3CC4AC;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.title-2 {
+  grid-area: title-2;
+  font-size: 120%;
+  color: #3CC4AC;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.title-3 {
+  grid-area: title-3;
+  font-size: 120%;
+  color: #3CC4AC;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.icon-pricing {
   text-align: center;
 }
 
@@ -188,27 +218,45 @@ html {
 
 .option-1 {
   grid-area: option-1;
-  text-align: justify;
-  padding: 0 20px 0 20px;
+  text-align: center;
+  /* padding: 0 20px 0 20px; */
   border: 1px solid #222222;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .option-2 {
   grid-area: option-2;
-  text-align: justify;
-  padding: 0 20px 0 20px;
+  text-align: center;
+  /* padding: 0 20px 0 20px; */
   border: 1px solid #222222;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .option-3 {
   grid-area: option-3;
-  text-align: justify;
-  padding: 0 20px 0 20px;
+  text-align: center;
+  /* padding: 0 20px 0 20px; */
   border: 1px solid #222222;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#section-pricing
+  input[type=submit] {
+    background-color: #3CC4AC;
+    width: 30%;
+    border: 0;
+    border-radius: 6px;
+    font-size: 80%;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    cursor: pointer;
 }
 
 /* -----------------------
