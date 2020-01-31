@@ -12,15 +12,16 @@
   <body>
     <!-- HEADER AND NAVIGATION -->
     <header id="header">
-      <div class="logo">
-        <a href="#page-top">FastPhones</a>
-      </div>
+      <!-- <div class="logo"> -->
+        <!-- <a href="#page-top">FastPhones</a> -->
+        <a href="#page-top"><img id="header-img" class="logo" src="logo.png" alt="FastPhones"></a>
+      <!-- </div> -->
       
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link"><a href="#section-features">Features</a></li>
-          <li class="nav-link"><a href="#section-how-it-works">How It Works</a></li>
-          <li class="nav-link"><a href="#section-pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#section-features">Features</a></li>
+          <li><a class="nav-link" href="#section-how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#section-pricing">Pricing</a></li>
         </ul>
       </nav>
     </header>
@@ -29,9 +30,9 @@
       <!-- EMAIL INPUT AND CALL TO ACTION -->
       <section id="section-callToAction">
         <h1>Prepaid Smartphones in Hand Fast</h1>
-        <form action="#">
-          <input type="email" id="email" placeholder="Enter Your Email">
-          <input action="https://www.freecodecamp.com/email-submit" method="post" type="submit" value="Learn More">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="Enter Your Email">
+          <input id="submit" type="submit" value="Learn More">
         </form>
       </section>
       <!-- QUALITY SPEED AND COVERAGE FEATURES -->
@@ -66,7 +67,7 @@
       </section>
       <!-- HOW IT WORKS VIDEO -->
       <section id="section-how-it-works">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2YBtspm8j8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2YBtspm8j8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
       <!-- PRICING OPTIONS -->
       <section id="section-pricing">

@@ -23,6 +23,12 @@ html {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 /* -----------------------
           HEADER 
 ----------------------- */
@@ -38,7 +44,7 @@ html {
   height: 10%;
 }
 
-.logo a {
+/* .logo a {
   margin-left: 75px;
   text-decoration: none;
   font-size: 200%;
@@ -49,11 +55,18 @@ html {
   padding: 5px;
   border-radius: 5px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+
+.logo {
+  width: 20%;
+  margin-top: -120px;
+  margin-left: 20px;
+  padding: 5px;
 }
 
-#nav-bar ul {
+/* #nav-bar ul {
   margin-left: 800px;
-}
+} */
 
 #nav-bar ul li {
   list-style: none;
@@ -61,12 +74,12 @@ html {
   padding-left: 15px;
 }
 
-.nav-link a{
+.nav-link {
   text-decoration: none;
   color: #3CC4AC;
 }
 
-.nav-link a:hover {
+.nav-link:hover {
   text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 2px solid #3CC4AC;
